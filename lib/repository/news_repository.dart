@@ -22,7 +22,7 @@ class NewsRepository {
   }
 
   Future<CategoriesNewsModel> fetchCategoriesNewsApi(String category) async {
-    String apiKey = 'a9e622138724420c9973e18140d8b3e3';
+    String apiKey = '';//ENTER YOUR API KEY
     String url = 'https://newsapi.org/v2/everything?q=${category}&apiKey=${apiKey}';
     
     final response = await http.get(Uri.parse(url));
