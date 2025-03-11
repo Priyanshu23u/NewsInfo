@@ -21,7 +21,7 @@ Make sure you have the following installed:
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone <repository_url>
+   git clone https://github.com/Priyanshu23u/NewsInfo.git
    ```
 2. Navigate into the project directory:
    ```sh
@@ -53,6 +53,5 @@ Contributions are welcome! If you want to contribute:
 3. Commit your changes.
 4. Push to your branch and submit a Pull Request.
 
-## License
-This project is licensed under the MIT License.
+
 
